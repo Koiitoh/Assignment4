@@ -1,0 +1,92 @@
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPyg7I8WMeoS2v9RQs_0IRqaszfFaRTahJ076CpkdLkqB_f-Ma_0zIPzu7H6W9Y0Id76Y&usqp=CAU");
+}
+
+h1, h2, h3{
+  color: black;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-family: 'Apple Chancery', cursive;
+}
+
+p{
+  color: darkblue;
+  font-family: 'Apple Chancery', cursive;
+}
+
+figure {
+  font-family: 'Apple Chancery', cursive;
+  color:darkblue;
+}
+
+ul,ol{
+  color: darkblue;
+  font-family: 'Apple Chancery', cursive;
+}
+
+.ingredients li{
+  font-size:20px;
+}
+
+.directions li{
+  font-size:20px;
+}
+
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.conversion input{
+  background-color:cyan;
+}
+
+.rate fieldset{
+  background-color:cyan;
+}
+
+.rate legend{
+  border: 1px black solid;
+  background-color:cyan;
+}
+
+.box fieldset{
+  background: lightblue
+}
+
+a{
+  text-decoration: none;
+  color: darkblue;
+  font-family: 'Apple Chancery', cursive;
+}
+
+.footer{
+  color:black;
+}
+
+.sections {
+  display: grid;
+  grid-auto-columns: 2;
+  gap: 10px;
+  grid-auto-rows: 2;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1.5;
+  grid-row: 1;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2;
+}
+.four {
+  grid-column: 2;
+  grid-row: 2;
+}
